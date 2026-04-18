@@ -1,5 +1,5 @@
 module "database" {
-    source  = "app.terraform.io/Modulark/bucket/aws"
+    source  = "app.terraform.io/delehner/bucket/aws"
     version = "~> 1"
 
     name              = "${var.name}"
