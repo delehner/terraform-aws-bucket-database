@@ -1,5 +1,5 @@
 module "database" {
-    source  = "app.terraform.io/denilson-lehner-portfolio/bucket/aws"
+    source  = "app.terraform.io/${var.organization}/bucket/aws"
     version = "~> 1"
 
     name              = "${var.name}"
